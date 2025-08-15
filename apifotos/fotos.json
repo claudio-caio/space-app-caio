@@ -1,4 +1,5 @@
-[
+{
+  "fotos":[
   {
     "titulo": "Gran Nube de Magallanes",
     "fuente": "Alura Space",
@@ -70,3 +71,4 @@
     "tagId": 1
   }
 ]
+}
