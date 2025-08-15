@@ -57,7 +57,7 @@ const GlobalContextProvider = ({ children }) => {
 
     useEffect(() => {
         const getData = async () => {
-            const res = await fetch('http://localhost:3000/fotos');
+            const res = await fetch('https://raw.githubusercontent.com/claudio-caio/ApiFotos/refs/heads/main/fotos.json');
             const data = await res.json();
             //setFotosDeGaleria([...data]);
             dispatch({ type: 'SET_FOTOS_DE_GALERIA', payload: data })
